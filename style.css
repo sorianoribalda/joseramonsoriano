@@ -1,0 +1,100 @@
+@font-face {
+  font-family: miletra;
+    
+  src: url(tipografias/open-sans/opensans-bold.ttf);
+}
+@font-face{
+    font-family:miletra2;
+    src:url(tipografias/open-sans/opensans-light.ttf);
+}
+
+
+h1, h4{
+    font-family: miletra;
+    padding: 1em;
+
+}
+#aptitudes{
+    padding-left: 0;
+}
+
+.card{
+    border:none;
+}
+
+p{
+    font-family: miletra2;
+    padding: 1em;
+}
+
+
+.home{
+    font-size:10rem;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+   
+}
+@keyframes animacionfondo{
+    from{
+         left:0%;
+         width: 100%;
+         height: 100%;
+    }
+    to{
+        left: -50%;
+    }
+}
+.fondo{
+    
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color:#D64644;
+    left:-50%;
+    top:0;
+    z-index: -1000;
+    animation: animacionfondo;
+    animation-duration: 1.5s;
+}
+.holapresentacion{
+    font-size:10rem;
+    background-color:#D64644;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    
+}
+/** aqui hover**/
+.card-img-overlay{
+    opacity:0;
+}
+.card-img-overlay:hover{
+    opacity:1;
+}
+.contacto{
+    background-size: cover;
+}
+
+
+footer{
+    background-color: #D64644;
+    font-weight: bold;
+    height: 50px;
+    width: 100%;
+    font-size: 0.9em;
+
+}
+.menu a{
+    color:black;
+}
+.redes a{
+    color:black;
+}
+li:hover{
+    text-decoration:line-through;
+    font-weight: bold;
+}
+
+
+
